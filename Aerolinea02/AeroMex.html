@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset=utf-8" />
+<meta name"viewport" content="widht=device-width, user-scalable=no, initial-scale=1, maximum-scale=1,minimum-scale=1 />
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>AeroMex</title>
+<link rel="stylesheet" href="icon-v1.0/style.css" />
+<link rel="stylesheet" href="iconitos-v1.0/style.css" />
+<link rel="stylesheet" href="css/estilos.css" />
+<link rel="stylesheet" href="css/menu.css" />
+<link rel="stylesheet" href="css/banner.css" />
+<link rel="stylesheet" href="css/vuelos.css" />
+<link rel="stylesheet" href="css/info.css" />
+</head>
+
+<body bgcolor="#000033">
+	<header>
+    <div class="contenedor">
+    <h1 class="icon-telegram">AeroMex</h1>
+    <input type="checkbox" id="menu-bar" />
+    <label class="icon-menu" for="menu-bar"></label>
+    <!--!Menu donde puede seleccionar inicio/acerca de/destinos/boletos -->
+    <nav class="menu">
+    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+    <a href="#" id="enlace-acercade" class="btn-header">Acerca De</a>
+    <a href="#" id="enlace-destinos" class="btn-header">Destinos</a>
+    <a href="#" id="enlace-contacto" class="btn-header">Contactanos</a>
+    <a href="php/compraBoletos.php" id="enlace-contacto" class="btn-header">Boletos</a>
+    
+    </nav>
+    </div>
+	</header>
+    
+    <main>
+    <!--Seccion donde se muestra la imagen de la avion y una pequeña frase referente a la empresa!-->
+    <section id="banner">
+    <img src="Imagenes/img_mbigas_20170804-145154_imagenes_lv_terceros_despegue-kSR-U4399813452aQB-992x558@LaVanguardia-Web.jpg" />
+    <div class="contenedor">
+    <h2>Viajando a un mundo nuevo</h2>
+    <p>Encuentra el destino que deseas para poder disfrutar de una maravilloso momento con tus seres queridos<br />
+    y tener recuerdos maravillosos de los momentos que vives en cada nuevo destino</p>
+    </div>
+    </section>
+    <!--Bienevida y descripcion de la empresa!-->
+    <section id="bienvenidos">
+    <h2>Bienvenido</h2>
+    <p>Gracias por elegirnos, brindamos las mejores opciones en compra de boletos de avion para cualquier destino que desees
+    <br /> encuentra el paquete perfecto para ti</p>
+    </section>
+<!--Circulos donde se muestra la imagen de horario/asientos/cliente!-->
+    <section id="info">
+    <h3>Ayuda...</h3>
+    <div class="contenedor">
+    <div class="info-usu">
+    <img src="Imagenes/rutas.jpg" alt="" />
+    <h4>Horarios</h4>
+    </div>
+    <div class="info-usu">
+    <img src="Imagenes/asientos.jpg" alt=""  />
+    <h4>Asientos</h4>
+    </div>
+    <div class="info-usu">
+    <img src="Imagenes/cliente.jpg" alt=""  />
+    <h4>Cliente</h4>
+    </div>
+    </div>
+    </section>
+    </main>
+    <section class="2contenedor" id="empresa">
+    </section>
+    
+
+    <!--Los nuevos destinos,donde puede dar click y se abre el formulario del boleto!-->
+    <!--Animacion de cambio de paises generada con jquery y js!-->
+   <section class="work contenedor" id="destinos">
+   <h3>Nuevos destinos para ti</h3>
+   <div class="botones-work">
+   <ul>		
+   <li class="filter active" data-nombre='todos'>Todos</li>
+   <li class="filter" data-nombre='estadosUnidos'>Estados Unidos</li>
+  <li class="filter" data-nombre='mexico'>Mexico</li>
+  <li class="filter" data-nombre='peru'>Peru</li>
+  </ul>
+  </div>
+  <div class="galeria-work">
+  <div class="cont-work estadosUnidos">
+  <div class="img-work"><a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/los angeles.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Los Angeles</h4></a>
+  </div>
+  </div>
+  <div class="cont-work estadosUnidos">
+  <div class="img-work"><a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/las vegas.jpg"" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Las Vegas</h4></a>
+  </div>
+  </div>
+  <div class="cont-work estadosUnidos">
+  <div class="img-work"><a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/san francisco.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>San Francisco</h4></a>
+  </div>
+  </div>
+  <div class="cont-work mexico">
+  <div class="img-work">
+  <a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/Queretaro.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Queretaro</h4></a>
+  </div>
+  </div>
+  <div class="cont-work mexico">
+  <div class="img-work">
+  <a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/cancun01.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Cancun</h4></a>
+  </div>
+  </div>
+  <div class="cont-work mexico">
+  <div class="img-work">
+  <a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/Aguascalientes.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Aguascaliente</h4></a>
+  </div>
+  </div>
+  <div class="cont-work peru">
+  <div class="img-work">
+  <a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/lima.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Lima</h4></a>
+  </div>
+  </div>
+  <div class="cont-work peru">
+  <div class="img-work">
+  <a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/ica.jpg" alt="">
+  </div>
+  <div class="textos-work">
+  <h4>Ica</h4></a>
+  </div>
+  </div>
+  <div class="cont-work peru">
+   <div class="img-work">
+   <a href="php/compraBoletos.php" class="boleto">
+  <img src="Imagenes/Tarma.jpg" alt="">
+   </div>
+   <div class="textos-work">
+   <h4>Tarma</h4></a>
+   </div>
+   </div>
+   </div>
+    </section>
+   
+   <!--Banner donde se da distintos servicios de ayuda al cliente!-->
+    <section class="about" id="servicio">
+    <div class="contenedor">
+    <h3>Nuestros Servicios</h3>
+    <p class="after">Lo que tu necesitas lo encuentras con nosotros</p>
+    
+   <!--En conoce mas sobre nosotros al dar cick se abre el carrusel!--> 
+    <div class="servicios">
+    <div class="caja-servicio">
+    <a href="carrusel/slider.html" >
+    <img src="Imagenes/001-operator.png" alt="" />
+    </a>
+    <h4>Conoce mas sobre nosotros</h4>
+    </div>
+    <div class="caja-servicio">
+    <img src="Imagenes/003-credit-card.png" alt="" />
+    <h4>Formas de Pago y otros servicios</h4>
+    </div>
+    <div class="caja-servicio">
+    <img src="Imagenes/007-airplane.png" alt="" />
+    <h4>Rutas de Vuelos</h4>
+    </div>
+    </div>
+    </div>
+    </section>
+    
+    
+    
+    <!-- las redes sociales!-->
+    <footer >
+    <div class="footer contenedor">
+    </div>
+    <div class="contenedor">
+    <p class="copy">AeroMex &copy; 2019</p>
+    <div class="redes-sociales">
+    <a class="icon-facebook" href="#"></a>
+    <a class="icon-twitter" href="#"></a>
+    <a class="icon-instagram" href="#"></a>
+   	<a class="icon-whatsapp" href="#"></a> 
+    </div>
+    </div>
+    </footer>
+	
+    <!--Que se deslice a diferente seccion-->
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+/*-----------------------------------*/
+/*PAGINACION, PUNTITOS DE PIE DE PAGINA*/
+.theme-mi-slider .nivoSlider{
+	position:relative;
+}
+
+.theme-mi-slider .nivoSlider a{
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav{
+	display:flex;
+	justify-content: center;
+}
+
+.theme-mi-slider .nivo-control{
+	display:block;
+	width:18px;
+	height:18px;
+	border-radius:50%;
+	background:#9B6B13;
+	margin:5px;
+	text-indent:-9999px;
+}
+
+.theme-mi-slider .nivo-control:hover{
+	background:#5C4514;
+}
+
+.theme-mi-slider .active{
+	background:#5C4514;
+}
+/*-------------------------------------*/
+/*Para las flechas que cambian de imagen */
+.nivo-directionNav a{
+	display:block;
+	width:90px;
+	height:90px;
+}
+
+.nivo-directionNav .nivo-prevNav{
+	background-image:url(imagenes/chevrons-left.png);
+	background-size:cover;
+	text-indent:-9999px;
+	left:15px;
+}
+.nivo-directionNav .nivo-nextNav{
+	background-image:url(imagenes/chevrons-right.png);
+	background-size:cover;
+	text-indent:-9999px;
+	right:15px;
+}
+/*----------------------------------
+element.style
+{
+	width:800px;
+}*/

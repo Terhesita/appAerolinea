@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Verdana, Geneva, sans-serif;
+  /*Fondo degradado*/
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.contenedor-form {
+
+  position: relative;
+  background:rgba(64, 38, 48, 0.6);
+  /*background: rgba(0, 0, 0, 0.644);*/
+  width: 100%;
+  max-width: 500px;
+  margin: 48px auto;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+.contenedor-form .toggle {
+	/*AeroMex ezquina superior*/
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  border-top: 2px solid  #595959;
+  border-bottom: 2px solid #595959;
+  transition: all .5s ease;
+  cursor: pointer;
+  color:#FFF;
+}
+
+.contenedor-form .toggle span {
+  letter-spacing: 1px;
+}
+
+.contenedor-form .toggle:hover {
+	/*Al pasar encima del AeroMex de la ezquina superior*/
+  border-top: 2px solid  #d0e4fb;
+  border-bottom: 2px solid  #d0e4fb;
+}
+
+.contenedor-form h2 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.contenedor-form .select {
+	/*Area donde se selecciona algo*/
+  outline: none;
+  background: rgba(0, 0, 0, 0.644);
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #d0e4fb;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"] {
+	/*cuando ingresa un texto*/
+  outline: none;
+  background: rgba(0, 0, 0, 0.644);
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-bottom: 4px solid #d0e4fb;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"]:hover,
+.contenedor-form input[type="password"]:hover,
+.contenedor-form input[type="email"]:hover {
+	/*cambio de color de borde al ingresar algo*/
+  border-bottom: 4px solid  #595959;
+}
+
+/*Para el boton de comprar boleto*/
+.contenedor-form input[type="submit"] {
+  background: #d0e4fb;
+  color: #000;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: normal;
+  font-family: Verdana, Geneva, sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+/*Al pasar por encima del boton comprar boleto*/
+.contenedor-form input[type="submit"]:hover {
+  background:#595959;
+  color:#FFF;
+}
+
+.contenedor-form .reset-password {
+  background: navy;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.contenedor-form .reset-volver a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+/*ocular formulario de la tarjeta*/
+#formPago {
+  display: none;
+  
+}
+/*icono que se visualiza para seleccionar la tarjeta*/
+.tarjeta {
+  background-image: url(../Imagenes/002-card.png);
+  background-repeat:no-repeat;
+  height:100px;
+  width:100px;
+  background-position:center;
+  border-radius: 50px;
+  border: solid 2px black; 
+  cursor: pointer;
+}
+/*Recuadro donde dar click se va al inicio de la pagina*/
+.contenedor-form .reset-volver {
+  background: rgb(15, 64, 97, 1);
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*
+.contenedor-form .reset-password a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}*/
+
+.contenedor-form .formulario {
+  padding: 40px;
+  display: none;
+}
+
+.contenedor-form .formulario a {
+  text-decoration:none;
+	color:#FFF;
+	}
+
+.contenedor-form .formulario:nth-child(2) {
+  display: block;
+}
+

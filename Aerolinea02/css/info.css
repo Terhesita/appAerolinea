@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+#info{
+	background: #FFC;
+	color:#000;
+	text-align:center;
+	padding:10px
+}
+
+#info .contenedor{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.info-usu{
+	margin:10px;
+}
+
+.info-usu img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	border:7px solid #FFC;
+}
+
+#info h4{
+	color:#000;
+	text-align:center;
+}

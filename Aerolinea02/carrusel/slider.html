@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Carrusel</title>
+<link rel="stylesheet" href="css/nivo-slider.css" />
+<link rel="stylesheet" href="mi-slider.css" />
+<!--Estilos para poder tener las flechitas y poder mover la imagen y los puntitos de abajo para saber la posicion en la que se encuetra !-->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery.nivo.slider.js"></script>
+
+<!--Hace que las imagenes vayan pasando de una por una!-->
+<script type="text/javascript">
+$(window).on('load',function(){
+	$('#slider').nivoSlider();
+});
+</script>
+</head>
+
+<body>
+<div class="slider-wrap theme-mi-slider">
+<div id="slider" class="nivoSlider" align="center">
+<img src="imagenes/slider01.jpg" alt="" />
+<img src="imagenes/slider02.jpg" alt="" />
+<img src="imagenes/slider03.jpg" alt="" />
+<img src="imagenes/slider04.jpg" alt="" />
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap'); /*para cambbiar el tipo de letra*/
+/*@import url(menu.css)*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+header{
+	width:100%;
+	height:50px;
+	
+	 background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	color:#FFF;
+	
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:100; /*Para que siempre se encuentre arriba de los demas*/
+	
+}
+
+.contenedor{
+	/*width:98%;
+	margin:auto;*/
+	width:98%;
+	margin:auto;
+	padding: var(--margenes);
+	max-width:1000px;
+	text-align:center;
+	overflow:hidden;
+	transition: 1s;
+	
+}
+
+h1{
+	float:left;
+}
+
+header .contenedor{
+	display:table; /*para limpiar los float y no se salgan*/
+}
+
+section{
+	width:100%;
+	margin-bottom:25px;
+}
+
+#bienvenidos
+{
+	text-align:center;
+	font-size:40px;
+	color:#FFF
+}
+
+#bienvenidos p{
+	font-size:25px;
+}
+
+footer .contenedor{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding-bottom:25px;
+}
+
+.copy{
+	font-size:20px;
+	color:#FFF;
+}
+
+.redes-sociales{
+	width:100%;
+	text-align:center;
+	font-size:28px;
+}
+
+.redes-sociales a{
+	text-decoration:none;
+}
+
+.contenedor01{
+	width:98%;
+	margin:auto;
+	padding: var(--margenes)0;
+	max-width:1000px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.after after{
+	content:'';
+	display:block;
+	margin:auto;
+	margin-top: var(--espacios);
+	width:100px;
+	height:2px;
+	background: var(--color1);
+	margin-bottom: var(--espacios-contenido);
+}
+
+.about
+{
+	background: url(../Imagenes/header01.jpg);
+	height:auto;
+}
+.about h4
+{
+	color:#000;
+}
+
+.servicios{
+	display:flex;
+	color:#000;
+	justify-content: space-between;
+	margin:auto;
+	flex-wrap:wrap;
+}
+
+.caja-servicios>h4{
+	margin-bottom:var(--espacios);
+}
+
+/*VUELOS*/
+/*donde  puede girar las imagenes y puede seleccionar su vuelo y comprar boleto*/
+.botones-work{
+	overflow:hidden;
+}
+
+.botones-work li{
+	display:inline-block;
+	text-align:center;
+	margin-left: var(--espacios);
+	margin-bottom:45px;
+	padding:6px 12px;
+	border:1px solid #FFC;
+	list-style:none;
+	text-decoration:none;
+	color:#FFC;
+}
+.botones-work li:hover{
+	background:#FFC;
+	color:#006;
+	cursor:pointer;
+}
+
+.botones-work .active{
+	background:#FFC;
+	color:#006;
+}
+
+.galeria-work{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+.galeria-work .cont-work{
+	width:31%;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,5);
+	height:300px;
+	overflow:hidden;
+	margin-bottom: 40px;
+}
+
+.img-work{
+	height:90%;
+	width:100%;
+}
+
+.img-work img{
+	height:100%;
+	width:100%;
+	object-fit: cover;
+}
+
+.textos-work{
+	height:10%;
+}
+
+.textos-work h4{
+	line-height:30px;
+	font-weight:300;
+	
+}
+
+.work h3{
+	color:#FFF;
+	font-size:30px;
+	margin-bottom: 20px;
+}
+
+.cont-work a{
+	text-decoration:none;
+}
+

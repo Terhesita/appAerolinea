@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+#vuelos h3, h4{
+	text-align:center;
+	color:#FFF;
+}
+
+#vuelos .contenedor{
+	display: flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+#vuelos article{
+	margin:15px;
+	}
+	
+#blog img{
+	width:100%;
+	max-width:280px;
+}
